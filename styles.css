@@ -1,0 +1,73 @@
+body {
+    font-family: 'Roboto', Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #0d1117;
+    color: #c9d1d9;
+}
+
+canvas {
+    background-color: #0d1117;
+    border: 2px solid #30363d;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+button {
+    font-size: 16px;
+    padding: 10px 20px;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+#boutton_start {
+    background-color: #238636;
+    color: #ffffff;
+}
+
+#boutton_start:hover {
+    background-color: #2ea043;
+    transform: scale(1.05);
+}
+
+#boutton_stop {
+    background-color: #d73a49;
+    color: #ffffff;
+}
+
+#boutton_stop:hover {
+    background-color: #e55361;
+    transform: scale(1.05);
+}
+
+#boutton_reset {
+    background-color: #0366d6;
+    color: #ffffff;
+}
+
+#boutton_reset:hover {
+    background-color: #2188ff;
+    transform: scale(1.05);
+}
+
+#boutton_save {
+    background-color: #6f42c1;
+    color: #ffffff;
+}
+
+#boutton_save:hover {
+    background-color: #8a63d1;
+    transform: scale(1.05);
+}
+
+p {
+    margin: 10px 0;
+    font-size: 16px;
+    color: #8b949e;
+}
